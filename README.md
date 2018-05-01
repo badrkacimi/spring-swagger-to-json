@@ -5,12 +5,12 @@ Swagger is the world’s largest framework of API developer tools for the OpenAP
 
 At the heart of the above tools is the OpenAPI Specification (formerly called the Swagger Specification). The specification creates the RESTful contract for your API, detailing all of its resources and operations in a human and machine readable format for easy development, discovery, and integration.
 
-# 1 Test Swagger interface in browser
+#  Test Swagger interface in browser
 ```
 http://localhost:8084/swagger-ui.html
 
 ```
-# 2 Generer contrat swagger.json
+#  Generer contrat swagger.json
 ```
 mvn compile
 ```
