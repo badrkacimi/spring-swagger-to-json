@@ -1,0 +1,23 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "api rest application",
+    "version" : "0.0.1-SNAPSHOT",
+    "title" : "apirest",
+    "termsOfService" : "terms-of-service",
+    "contact" : {
+      "name" : "Badr Kacimi",
+      "url" : "https://github.com/BADRKAC"
+    },
+    "license" : {
+      "name" : "Apache License v2.0",
+      "url" : "https://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host" : "localhost:8084",
+  "basePath" : "/",
+  "tags" : [ {
+    "name" : "Badr Authentication API"
+  } ],
+  "schemes" : [ "http" ]
+}

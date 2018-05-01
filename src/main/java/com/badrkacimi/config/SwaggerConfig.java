@@ -16,7 +16,7 @@ public class SwaggerConfig {
     public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.hiveprod.restgenerated"))
+                .apis(RequestHandlerSelectors.basePackage("com.badrkacimi.api"))
             .build()
             .apiInfo(metaInfo());
 }
@@ -27,7 +27,7 @@ private ApiInfo metaInfo() {
             "Swagger contrat Example API ",
             "1.0",
             "Terms of Service",
-            new Contact("Badr-Hiveprod", "http://www.hiveprod.com",
+            new Contact("Badr Kacimi","",
                     "contact@hiveprod.com"),
             "Apache License Version 2.0",
             "https://www.apache.org/licesen.html"
