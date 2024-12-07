@@ -1,4 +1,4 @@
-# Spring-SwaggerUI-File
+# Spring Swagger to Json
 Document your API (Spring Rest)
 
 Swagger is the world’s largest framework of API developer tools for the OpenAPI Specification(OAS), enabling development across the entire API lifecycle, from design and documentation, to test and deployment.
